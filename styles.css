@@ -9,7 +9,8 @@
 }
 
 a,
-button {
+button,
+.rspv {
     cursor: url('assets/cursor-pointer.png'), pointer;
 }
 
@@ -27,7 +28,7 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: contain;
+    background-position: center center;
 }
 
 
@@ -62,6 +63,7 @@ nav {
 a {
     text-decoration: none;
     color: #c1a184;
+    cursor: url('assets/cursor-pointer.png'), pointer;
 }
 
 .rspv {
@@ -72,6 +74,7 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: url('assets/cursor-pointer.png'), pointer;
 }
 
 .rspv a button {
@@ -80,5 +83,44 @@ a {
     color: #c1a184;
     padding: 10px 30px;
     border-radius: 5px;
+    cursor: url('assets/cursor-pointer.png'), pointer;
     cursor: pointer;
+}
+
+@media (max-width: 652px) {
+
+    .hero_section .logo img {
+        width: 100px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero_section {
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .hero_section_txt h1 {
+        font-size: 30px;
+    }
+
+    .rspv {
+        padding: 8px 35px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero_section {
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .hero_section_txt h1 {
+        font-size: 24px;
+    }
+
+    .rspv {
+        padding: 8px 20px;
+    }
 }
