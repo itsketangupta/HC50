@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+}
+
+body {
+    background-color: #fdf1e5;
+    font-family: "Bitcount Grid Double", system-ui;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.hero_section {
+    background-image: url('assets/hero.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+}
+
+
+.hero_section .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero_section_txt h1 span {
+    color: #E0D7C9;
+}
+
+.hero_section_txt h1 {
+    color: #ffffff;
+}
+
+.hero_section_txt {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.rspv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rspv a button {
+    background-color: #E0D7C9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
