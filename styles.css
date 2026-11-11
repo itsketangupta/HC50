@@ -51,7 +51,7 @@ body {
     text-align: center;
 }
 
-nav {
+footer {
     display: flex;
     position: absolute;
     bottom: 0;

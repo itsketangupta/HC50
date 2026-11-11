@@ -28,6 +28,14 @@ Or, if you are using VS Code:
 
 ---
 
+## things used in this project are:
+
+* Hero section
+* logo 
+* Rspv button 
+* footer
+
+
 ## What I learned
 
 as per this project nothing new i learned.
