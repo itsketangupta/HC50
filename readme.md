@@ -1,6 +1,6 @@
 ## What is this HC50 
 
-HC50 is a ysws idea that if u code 50hrs u can fly to harvard and show case your project in cs50 fair 
+HC50 is a ysws idea that if u code 50hrs u can fly to harvard and show case your project in cs50 fair and also can get a chance to meet the professor David J. Malan.
 
 ---
 
