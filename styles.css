@@ -4,11 +4,17 @@
     margin: 0;
     padding: 0;
     scrollbar-width: none;
+    font-family: "Bitcount Grid Double", system-ui;
+    cursor: url('assets/cursor-arrow.png'), auto;
+}
+
+a,
+button {
+    cursor: url('assets/cursor-pointer.png'), pointer;
 }
 
 body {
     background-color: #fdf1e5;
-    font-family: "Bitcount Grid Double", system-ui;
 }
 
 ::-webkit-scrollbar {
@@ -40,6 +46,7 @@ body {
 }
 
 .hero_section_txt {
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -47,25 +54,31 @@ nav {
     display: flex;
     position: absolute;
     bottom: 0;
+    color: #c1a184;
     left: 0;
     padding: 20px;
 }
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #c1a184;
 }
 
 .rspv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    background-color: #fff;
+    padding: 8px 80px;
+    border: 2px solid #c1a184;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .rspv a button {
     background-color: #E0D7C9;
     border: none;
-    padding: 10px 20px;
+    color: #c1a184;
+    padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
 }
